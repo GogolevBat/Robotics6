@@ -170,7 +170,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>0</number>
     </property>
     <property name="tabBarAutoHide">
      <bool>false</bool>
@@ -926,7 +926,7 @@
     </widget>
     <widget class="QWidget" name="tab_5">
      <attribute name="title">
-      <string>...</string>
+      <string>Алгоритмическое управление</string>
      </attribute>
      <widget class="QPushButton" name="auto_object_1">
       <property name="geometry">
@@ -941,7 +941,7 @@
        <string>А (1)</string>
       </property>
      </widget>
-     <widget class="QTableWidget" name="tableWidget">
+     <widget class="QTableWidget" name="auto_table_palete_information">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -1032,9 +1032,9 @@
      <widget class="QPushButton" name="auto_start">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>290</x>
         <y>350</y>
-        <width>161</width>
+        <width>91</width>
         <height>81</height>
        </rect>
       </property>
@@ -1110,23 +1110,23 @@
      <widget class="QPushButton" name="auto_clear_palete_all">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>270</x>
         <y>530</y>
-        <width>151</width>
+        <width>111</width>
         <height>81</height>
        </rect>
       </property>
       <property name="text">
-       <string>Полностью</string>
+       <string>Всех мест</string>
       </property>
      </widget>
      <widget class="QTableWidget" name="auto_table_algoritm">
       <property name="geometry">
        <rect>
         <x>510</x>
-        <y>30</y>
+        <y>60</y>
         <width>251</width>
-        <height>571</height>
+        <height>541</height>
        </rect>
       </property>
      </widget>
@@ -1141,6 +1141,58 @@
       </property>
       <property name="text">
        <string>Автоматизация</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="auto_stop">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>350</y>
+        <width>91</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Стоп</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="auto_save_button">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>30</y>
+        <width>113</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Сохранить</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="auto_load_button">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>30</y>
+        <width>113</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Загрузить</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="auto_clear_palete_all_2">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>530</y>
+        <width>111</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Кол-ва</string>
       </property>
      </widget>
     </widget>

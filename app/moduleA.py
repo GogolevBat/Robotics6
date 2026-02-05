@@ -138,13 +138,6 @@ class ModuleAWindow(QMainWindow, Ui_MainWindow):
         self.ui.logs_save_button.clicked.connect(self.save_logs)
         self.ui.manual_clear_state_for_objects.clicked.connect(self.manual_clear_state_for_objects)
 
-
-    @asyncSlot()
-    async def man_gripper_off_A(self):
-        self.log.error("Экстренная остановка")
-        await asyncio.to_thread(self.robot.reset)
-        await self.manual_conv_stop()
-        self.lamp.red()
         
 
     def manual_clear_state_for_objects(self):
